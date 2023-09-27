@@ -38,6 +38,7 @@ body {
   padding: 0;
   min-width: 320px;
   min-height: 100vh;
+  background-color: var(--clr-lightBlue);
 }
 
 /* @media (prefers-color-scheme: light) {
