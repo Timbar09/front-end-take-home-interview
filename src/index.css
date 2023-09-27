@@ -10,13 +10,21 @@ html {
 }
 
 :root {
+  --clr-white: #ffffff;
+  --clr-lightBlue: #cde7ed;
+  --clr-green: #25a575;
+  --clr-steelBlue: #2595a5;
+  --clr-royalBlue: #3a719b;
+  --clr-navyBlue: #254b7a;
+  --clr-midnightBlue: #142b58;
+
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   /* color-scheme: light dark; */
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  color: var(--clr-royalBlue);
+  background-color: var(--white);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
