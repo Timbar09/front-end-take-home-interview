@@ -9,6 +9,11 @@ export default function Form() {
           once they&apos;ve been approved.
         </p>
       </div>
+
+      <h2 className="form__title">Referral Patients</h2>
+      <p className="form__description">
+        You can add up to five patients at a time
+      </p>
     </div>
   );
 }

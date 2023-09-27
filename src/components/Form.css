@@ -6,3 +6,13 @@
   background-color: var(--clr-green);
   max-width: max-content;
 }
+
+.form__title {
+  margin: 2rem 0 0;
+  font-size: 1.5rem;
+}
+
+.form__description {
+  margin: 0;
+  font-size: 1.125rem;
+}
