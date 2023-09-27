@@ -1,0 +1,15 @@
+.header {
+  text-align: center;
+  padding: 2rem;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.625rem;
+  font-weight: 400;
+}
+
+.header h1 span {
+  display: block;
+  font-size: 1.45rem;
+}
