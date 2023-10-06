@@ -16,3 +16,22 @@
   margin: 0;
   font-size: 1.125rem;
 }
+
+.form__container {
+  max-width: 48.875rem;
+  margin: 1rem auto 0;
+}
+
+.form__header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.form__header--color {
+  display: inline-block;
+  padding: 1rem 0;
+  width: 2.25rem;
+  color: var(--clr-white);
+  background-color: var(--clr-green);
+}

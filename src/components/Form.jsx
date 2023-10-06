@@ -14,6 +14,13 @@ export default function Form() {
       <p className="form__description">
         You can add up to five patients at a time
       </p>
+
+      <div className="form__container">
+        <header className="form__header">
+          <span className="form__header--color">1</span>
+          <h3 className="form__header--name">New Referral</h3>
+        </header>
+      </div>
     </div>
   );
 }
