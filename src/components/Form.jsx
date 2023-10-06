@@ -1,3 +1,7 @@
+import Box from '@mui/material/Box';
+import TextField from '@mui/material/TextField';
+import AccountCircle from '@mui/icons-material/AccountCircle';
+
 import './Form.css';
 
 export default function Form() {
@@ -21,7 +25,35 @@ export default function Form() {
           <h3 className="form__header--name">New Referral</h3>
         </header>
 
-        <form action="#" className="form__content"></form>
+        <form action="#" className="form__content">
+          <Box sx={{ padding: '2rem' }}>
+            <Box sx={{ display: 'flex', alignItems: 'flex-end', gap: '2rem' }}>
+              <Box sx={{ display: 'flex', alignItems: 'flex-end', flex: 1 }}>
+                <AccountCircle
+                  sx={{ color: 'action.active', mr: 1, my: 0.5 }}
+                />
+                <TextField
+                  id="input-with-sx"
+                  label="Full Name*"
+                  variant="standard"
+                  sx={{ width: '100%' }}
+                />
+              </Box>
+
+              <Box sx={{ display: 'flex', alignItems: 'flex-end', flex: 1 }}>
+                <AccountCircle
+                  sx={{ color: 'action.active', mr: 1, my: 0.5 }}
+                />
+                <TextField
+                  id="input-with-sx"
+                  label="Last Name*"
+                  variant="standard"
+                  sx={{ width: '100%' }}
+                />
+              </Box>
+            </Box>
+          </Box>
+        </form>
       </div>
     </div>
   );
