@@ -20,6 +20,8 @@ export default function Form() {
           <span className="form__header--color">1</span>
           <h3 className="form__header--name">New Referral</h3>
         </header>
+
+        <form action="#" className="form__content"></form>
       </div>
     </div>
   );

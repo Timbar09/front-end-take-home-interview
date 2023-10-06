@@ -20,6 +20,9 @@
 .form__container {
   max-width: 48.875rem;
   margin: 1rem auto 0;
+  border-radius: 0.25rem;
+  background-color: var(--clr-white);
+  overflow: hidden;
 }
 
 .form__header {
